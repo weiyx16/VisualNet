@@ -1,0 +1,4251 @@
+{
+    "figure_name": "test",
+    "figure_type": "Line chart",
+    "language": "python",
+    "module": "matplotlib",
+    "data_dir": "./data/postprocess/WDI/Indicator",
+    "data_file": "TX.VAL.OTHR.ZS.WT.csv",
+    "the_axes": {
+        "bbox": null,
+        "drawing_objects": {
+            "the_drawing_object_0": {
+                "value": "dataloc_1",
+                "bbox": null
+            }
+        },
+        "the_x_axis": {
+            "bbox": null,
+            "the_x_axis_label": {
+                "value": "Time",
+                "bbox": null
+            },
+            "the_x_axis_offset": {
+                "value": "",
+                "bbox": null
+            },
+            "x_axis_minor_ticks": {
+                "the_x_axis_minor_tick_0": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_0": {
+                        "style": 0,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_0": {
+                        "style": 0,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_1": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_1": {
+                        "style": 1,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_1": {
+                        "style": 1,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_2": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_2": {
+                        "style": 2,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_2": {
+                        "style": 2,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_3": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_3": {
+                        "style": 3,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_3": {
+                        "style": 3,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_4": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_4": {
+                        "style": 4,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_4": {
+                        "style": 4,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_5": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_5": {
+                        "style": 5,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_5": {
+                        "style": 5,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_6": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_6": {
+                        "style": 6,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_6": {
+                        "style": 6,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_7": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_7": {
+                        "style": 7,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_7": {
+                        "style": 7,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_8": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_8": {
+                        "style": 8,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_8": {
+                        "style": 8,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_9": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_9": {
+                        "style": 9,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_9": {
+                        "style": 9,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_10": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_10": {
+                        "style": 10,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_10": {
+                        "style": 10,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_11": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_11": {
+                        "style": 11,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_11": {
+                        "style": 11,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_12": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_12": {
+                        "style": 12,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_12": {
+                        "style": 12,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_13": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_13": {
+                        "style": 13,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_13": {
+                        "style": 13,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_14": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_14": {
+                        "style": 14,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_14": {
+                        "style": 14,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_15": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_15": {
+                        "style": 15,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_15": {
+                        "style": 15,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_16": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_16": {
+                        "style": 16,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_16": {
+                        "style": 16,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_17": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_17": {
+                        "style": 17,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_17": {
+                        "style": 17,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_18": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_18": {
+                        "style": 18,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_18": {
+                        "style": 18,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_19": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_19": {
+                        "style": 19,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_19": {
+                        "style": 19,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_20": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_20": {
+                        "style": 20,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_20": {
+                        "style": 20,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_21": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_21": {
+                        "style": 21,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_21": {
+                        "style": 21,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_22": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_22": {
+                        "style": 22,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_22": {
+                        "style": 22,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_23": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_23": {
+                        "style": 23,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_23": {
+                        "style": 23,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_24": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_24": {
+                        "style": 24,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_24": {
+                        "style": 24,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_25": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_25": {
+                        "style": 25,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_25": {
+                        "style": 25,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_26": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_26": {
+                        "style": 26,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_26": {
+                        "style": 26,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_27": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_27": {
+                        "style": 27,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_27": {
+                        "style": 27,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_28": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_28": {
+                        "style": 28,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_28": {
+                        "style": 28,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_29": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_29": {
+                        "style": 29,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_29": {
+                        "style": 29,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_30": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_30": {
+                        "style": 30,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_30": {
+                        "style": 30,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_31": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_31": {
+                        "style": 31,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_31": {
+                        "style": 31,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_32": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_32": {
+                        "style": 32,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_32": {
+                        "style": 32,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_33": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_33": {
+                        "style": 33,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_33": {
+                        "style": 33,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_34": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_34": {
+                        "style": 34,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_34": {
+                        "style": 34,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_35": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_35": {
+                        "style": 35,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_35": {
+                        "style": 35,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_36": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_36": {
+                        "style": 36,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_36": {
+                        "style": 36,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_37": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_37": {
+                        "style": 37,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_37": {
+                        "style": 37,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_38": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_38": {
+                        "style": 38,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_38": {
+                        "style": 38,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_39": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_39": {
+                        "style": 39,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_39": {
+                        "style": 39,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_40": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_40": {
+                        "style": 40,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_40": {
+                        "style": 40,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_41": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_41": {
+                        "style": 41,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_41": {
+                        "style": 41,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_42": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_42": {
+                        "style": 42,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_42": {
+                        "style": 42,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_43": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_43": {
+                        "style": 43,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_43": {
+                        "style": 43,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_44": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_44": {
+                        "style": 44,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_44": {
+                        "style": 44,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_45": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_45": {
+                        "style": 45,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_45": {
+                        "style": 45,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_46": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_46": {
+                        "style": 46,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_46": {
+                        "style": 46,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_47": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_47": {
+                        "style": 47,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_47": {
+                        "style": 47,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_48": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_48": {
+                        "style": 48,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_48": {
+                        "style": 48,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_49": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_49": {
+                        "style": 49,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_49": {
+                        "style": 49,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_50": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_50": {
+                        "style": 50,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_50": {
+                        "style": 50,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_51": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_51": {
+                        "style": 51,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_51": {
+                        "style": 51,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_52": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_52": {
+                        "style": 52,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_52": {
+                        "style": 52,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_53": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_53": {
+                        "style": 53,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_53": {
+                        "style": 53,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_54": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_54": {
+                        "style": 54,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_54": {
+                        "style": 54,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_55": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_55": {
+                        "style": 55,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_55": {
+                        "style": 55,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_56": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_56": {
+                        "style": 56,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_56": {
+                        "style": 56,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_57": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_57": {
+                        "style": 57,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_57": {
+                        "style": 57,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_58": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_58": {
+                        "style": 58,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_58": {
+                        "style": 58,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_59": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_59": {
+                        "style": 59,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_59": {
+                        "style": 59,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_60": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_60": {
+                        "style": 60,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_60": {
+                        "style": 60,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_61": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_61": {
+                        "style": 61,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_61": {
+                        "style": 61,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_62": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_62": {
+                        "style": 62,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_62": {
+                        "style": 62,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_63": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_63": {
+                        "style": 63,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_63": {
+                        "style": 63,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_64": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_64": {
+                        "style": 64,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_64": {
+                        "style": 64,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_65": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_65": {
+                        "style": 65,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_65": {
+                        "style": 65,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_66": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_66": {
+                        "style": 66,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_66": {
+                        "style": 66,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_67": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_67": {
+                        "style": 67,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_67": {
+                        "style": 67,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_68": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_68": {
+                        "style": 68,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_68": {
+                        "style": 68,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_69": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_69": {
+                        "style": 69,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_69": {
+                        "style": 69,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_70": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_70": {
+                        "style": 70,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_70": {
+                        "style": 70,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_71": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_71": {
+                        "style": 71,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_71": {
+                        "style": 71,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_72": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_72": {
+                        "style": 72,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_72": {
+                        "style": 72,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_73": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_73": {
+                        "style": 73,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_73": {
+                        "style": 73,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_74": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_74": {
+                        "style": 74,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_74": {
+                        "style": 74,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_75": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_75": {
+                        "style": 75,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_75": {
+                        "style": 75,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_76": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_76": {
+                        "style": 76,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_76": {
+                        "style": 76,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_77": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_77": {
+                        "style": 77,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_77": {
+                        "style": 77,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_78": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_78": {
+                        "style": 78,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_78": {
+                        "style": 78,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_79": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_79": {
+                        "style": 79,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_79": {
+                        "style": 79,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_80": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_80": {
+                        "style": 80,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_80": {
+                        "style": 80,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_81": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_81": {
+                        "style": 81,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_81": {
+                        "style": 81,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_82": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_82": {
+                        "style": 82,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_82": {
+                        "style": 82,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_83": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_83": {
+                        "style": 83,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_83": {
+                        "style": 83,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_84": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_84": {
+                        "style": 84,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_84": {
+                        "style": 84,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_85": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_85": {
+                        "style": 85,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_85": {
+                        "style": 85,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_86": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_86": {
+                        "style": 86,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_86": {
+                        "style": 86,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_87": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_87": {
+                        "style": 87,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_87": {
+                        "style": 87,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_88": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_88": {
+                        "style": 88,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_88": {
+                        "style": 88,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_89": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_89": {
+                        "style": 89,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_89": {
+                        "style": 89,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_90": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_90": {
+                        "style": 90,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_90": {
+                        "style": 90,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_91": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_91": {
+                        "style": 91,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_91": {
+                        "style": 91,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_92": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_92": {
+                        "style": 92,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_92": {
+                        "style": 92,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_93": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_93": {
+                        "style": 93,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_93": {
+                        "style": 93,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_94": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_94": {
+                        "style": 94,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_94": {
+                        "style": 94,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_95": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_95": {
+                        "style": 95,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_95": {
+                        "style": 95,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_96": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_96": {
+                        "style": 96,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_96": {
+                        "style": 96,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_97": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_97": {
+                        "style": 97,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_97": {
+                        "style": 97,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_98": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_98": {
+                        "style": 98,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_98": {
+                        "style": 98,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_99": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_99": {
+                        "style": 99,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_99": {
+                        "style": 99,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_100": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_100": {
+                        "style": 100,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_100": {
+                        "style": 100,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_101": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_101": {
+                        "style": 101,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_101": {
+                        "style": 101,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_102": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_102": {
+                        "style": 102,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_102": {
+                        "style": 102,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_103": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_103": {
+                        "style": 103,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_103": {
+                        "style": 103,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_104": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_104": {
+                        "style": 104,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_104": {
+                        "style": 104,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_105": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_105": {
+                        "style": 105,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_105": {
+                        "style": 105,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_106": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_106": {
+                        "style": 106,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_106": {
+                        "style": 106,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_107": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_107": {
+                        "style": 107,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_107": {
+                        "style": 107,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_108": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_108": {
+                        "style": 108,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_108": {
+                        "style": 108,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_109": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_109": {
+                        "style": 109,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_109": {
+                        "style": 109,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_110": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_110": {
+                        "style": 110,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_110": {
+                        "style": 110,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_111": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_111": {
+                        "style": 111,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_111": {
+                        "style": 111,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_112": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_112": {
+                        "style": 112,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_112": {
+                        "style": 112,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_113": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_113": {
+                        "style": 113,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_113": {
+                        "style": 113,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_114": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_114": {
+                        "style": 114,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_114": {
+                        "style": 114,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_115": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_115": {
+                        "style": 115,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_115": {
+                        "style": 115,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_116": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_116": {
+                        "style": 116,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_116": {
+                        "style": 116,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_117": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_117": {
+                        "style": 117,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_117": {
+                        "style": 117,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_118": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_118": {
+                        "style": 118,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_118": {
+                        "style": 118,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_119": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_119": {
+                        "style": 119,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_119": {
+                        "style": 119,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_120": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_120": {
+                        "style": 120,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_120": {
+                        "style": 120,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_121": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_121": {
+                        "style": 121,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_121": {
+                        "style": 121,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_122": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_122": {
+                        "style": 122,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_122": {
+                        "style": 122,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_123": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_123": {
+                        "style": 123,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_123": {
+                        "style": 123,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_124": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_124": {
+                        "style": 124,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_124": {
+                        "style": 124,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_125": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_125": {
+                        "style": 125,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_125": {
+                        "style": 125,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_126": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_126": {
+                        "style": 126,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_126": {
+                        "style": 126,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_127": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_127": {
+                        "style": 127,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_127": {
+                        "style": 127,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_128": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_128": {
+                        "style": 128,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_128": {
+                        "style": 128,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_129": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_129": {
+                        "style": 129,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_129": {
+                        "style": 129,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_130": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_130": {
+                        "style": 130,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_130": {
+                        "style": 130,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_131": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_131": {
+                        "style": 131,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_131": {
+                        "style": 131,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_132": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_132": {
+                        "style": 132,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_132": {
+                        "style": 132,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_133": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_133": {
+                        "style": 133,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_133": {
+                        "style": 133,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_134": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_134": {
+                        "style": 134,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_134": {
+                        "style": 134,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_135": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_135": {
+                        "style": 135,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_135": {
+                        "style": 135,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_136": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_136": {
+                        "style": 136,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_136": {
+                        "style": 136,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_137": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_137": {
+                        "style": 137,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_137": {
+                        "style": 137,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_138": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_138": {
+                        "style": 138,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_138": {
+                        "style": 138,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_139": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_139": {
+                        "style": 139,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_139": {
+                        "style": 139,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_140": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_140": {
+                        "style": 140,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_140": {
+                        "style": 140,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_141": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_141": {
+                        "style": 141,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_141": {
+                        "style": 141,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_142": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_142": {
+                        "style": 142,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_142": {
+                        "style": 142,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_143": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_143": {
+                        "style": 143,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_143": {
+                        "style": 143,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_144": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_144": {
+                        "style": 144,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_144": {
+                        "style": 144,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_145": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_145": {
+                        "style": 145,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_145": {
+                        "style": 145,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_146": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_146": {
+                        "style": 146,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_146": {
+                        "style": 146,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_147": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_147": {
+                        "style": 147,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_147": {
+                        "style": 147,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_148": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_148": {
+                        "style": 148,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_148": {
+                        "style": 148,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_149": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_149": {
+                        "style": 149,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_149": {
+                        "style": 149,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_150": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_150": {
+                        "style": 150,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_150": {
+                        "style": 150,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_151": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_151": {
+                        "style": 151,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_151": {
+                        "style": 151,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_152": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_152": {
+                        "style": 152,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_152": {
+                        "style": 152,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_153": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_153": {
+                        "style": 153,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_153": {
+                        "style": 153,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_154": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_154": {
+                        "style": 154,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_154": {
+                        "style": 154,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_155": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_155": {
+                        "style": 155,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_155": {
+                        "style": 155,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_156": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_156": {
+                        "style": 156,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_156": {
+                        "style": 156,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_157": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_157": {
+                        "style": 157,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_157": {
+                        "style": 157,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_158": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_158": {
+                        "style": 158,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_158": {
+                        "style": 158,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_159": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_159": {
+                        "style": 159,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_159": {
+                        "style": 159,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_160": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_160": {
+                        "style": 160,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_160": {
+                        "style": 160,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_161": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_161": {
+                        "style": 161,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_161": {
+                        "style": 161,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_162": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_162": {
+                        "style": 162,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_162": {
+                        "style": 162,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_163": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_163": {
+                        "style": 163,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_163": {
+                        "style": 163,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_164": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_164": {
+                        "style": 164,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_164": {
+                        "style": 164,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_165": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_165": {
+                        "style": 165,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_165": {
+                        "style": 165,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_166": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_166": {
+                        "style": 166,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_166": {
+                        "style": 166,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_167": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_167": {
+                        "style": 167,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_167": {
+                        "style": 167,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_168": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_168": {
+                        "style": 168,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_168": {
+                        "style": 168,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_169": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_169": {
+                        "style": 169,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_169": {
+                        "style": 169,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_170": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_170": {
+                        "style": 170,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_170": {
+                        "style": 170,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_171": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_171": {
+                        "style": 171,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_171": {
+                        "style": 171,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_172": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_172": {
+                        "style": 172,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_172": {
+                        "style": 172,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_173": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_173": {
+                        "style": 173,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_173": {
+                        "style": 173,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_174": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_174": {
+                        "style": 174,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_174": {
+                        "style": 174,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_175": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_175": {
+                        "style": 175,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_175": {
+                        "style": 175,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_176": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_176": {
+                        "style": 176,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_176": {
+                        "style": 176,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_177": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_177": {
+                        "style": 177,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_177": {
+                        "style": 177,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_178": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_178": {
+                        "style": 178,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_178": {
+                        "style": 178,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_179": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_179": {
+                        "style": 179,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_179": {
+                        "style": 179,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_180": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_180": {
+                        "style": 180,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_180": {
+                        "style": 180,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_181": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_181": {
+                        "style": 181,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_181": {
+                        "style": 181,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_182": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_182": {
+                        "style": 182,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_182": {
+                        "style": 182,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_183": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_183": {
+                        "style": 183,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_183": {
+                        "style": 183,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_184": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_184": {
+                        "style": 184,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_184": {
+                        "style": 184,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_185": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_185": {
+                        "style": 185,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_185": {
+                        "style": 185,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_186": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_186": {
+                        "style": 186,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_186": {
+                        "style": 186,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_187": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_187": {
+                        "style": 187,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_187": {
+                        "style": 187,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_188": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_188": {
+                        "style": 188,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_188": {
+                        "style": 188,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_189": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_189": {
+                        "style": 189,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_189": {
+                        "style": 189,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_190": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_190": {
+                        "style": 190,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_190": {
+                        "style": 190,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_191": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_191": {
+                        "style": 191,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_191": {
+                        "style": 191,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_192": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_192": {
+                        "style": 192,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_192": {
+                        "style": 192,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_193": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_193": {
+                        "style": 193,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_193": {
+                        "style": 193,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_194": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_194": {
+                        "style": 194,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_194": {
+                        "style": 194,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_195": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_195": {
+                        "style": 195,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_195": {
+                        "style": 195,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_196": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_196": {
+                        "style": 196,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_196": {
+                        "style": 196,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_197": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_197": {
+                        "style": 197,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_197": {
+                        "style": 197,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_198": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_198": {
+                        "style": 198,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_198": {
+                        "style": 198,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_199": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_199": {
+                        "style": 199,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_199": {
+                        "style": 199,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_200": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_200": {
+                        "style": 200,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_200": {
+                        "style": 200,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_201": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_201": {
+                        "style": 201,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_201": {
+                        "style": 201,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_202": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_202": {
+                        "style": 202,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_202": {
+                        "style": 202,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_203": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_203": {
+                        "style": 203,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_203": {
+                        "style": 203,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_204": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_204": {
+                        "style": 204,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_204": {
+                        "style": 204,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_205": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_205": {
+                        "style": 205,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_205": {
+                        "style": 205,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_206": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_206": {
+                        "style": 206,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_206": {
+                        "style": 206,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_207": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_207": {
+                        "style": 207,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_207": {
+                        "style": 207,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_208": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_208": {
+                        "style": 208,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_208": {
+                        "style": 208,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_209": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_209": {
+                        "style": 209,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_209": {
+                        "style": 209,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_210": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_210": {
+                        "style": 210,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_210": {
+                        "style": 210,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_211": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_211": {
+                        "style": 211,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_211": {
+                        "style": 211,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_212": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_212": {
+                        "style": 212,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_212": {
+                        "style": 212,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_213": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_213": {
+                        "style": 213,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_213": {
+                        "style": 213,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_214": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_214": {
+                        "style": 214,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_214": {
+                        "style": 214,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_215": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_215": {
+                        "style": 215,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_215": {
+                        "style": 215,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_216": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_216": {
+                        "style": 216,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_216": {
+                        "style": 216,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_217": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_217": {
+                        "style": 217,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_217": {
+                        "style": 217,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_218": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_218": {
+                        "style": 218,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_218": {
+                        "style": 218,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_219": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_219": {
+                        "style": 219,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_219": {
+                        "style": 219,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_220": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_220": {
+                        "style": 220,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_220": {
+                        "style": 220,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_221": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_221": {
+                        "style": 221,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_221": {
+                        "style": 221,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_222": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_222": {
+                        "style": 222,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_222": {
+                        "style": 222,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_223": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_223": {
+                        "style": 223,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_223": {
+                        "style": 223,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_224": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_224": {
+                        "style": 224,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_224": {
+                        "style": 224,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_225": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_225": {
+                        "style": 225,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_225": {
+                        "style": 225,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_226": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_226": {
+                        "style": 226,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_226": {
+                        "style": 226,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_227": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_227": {
+                        "style": 227,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_227": {
+                        "style": 227,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_228": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_228": {
+                        "style": 228,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_228": {
+                        "style": 228,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_229": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_229": {
+                        "style": 229,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_229": {
+                        "style": 229,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_230": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_230": {
+                        "style": 230,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_230": {
+                        "style": 230,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_231": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_231": {
+                        "style": 231,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_231": {
+                        "style": 231,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_232": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_232": {
+                        "style": 232,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_232": {
+                        "style": 232,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_233": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_233": {
+                        "style": 233,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_233": {
+                        "style": 233,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_234": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_234": {
+                        "style": 234,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_234": {
+                        "style": 234,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_235": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_235": {
+                        "style": 235,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_235": {
+                        "style": 235,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_236": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_236": {
+                        "style": 236,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_236": {
+                        "style": 236,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_237": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_237": {
+                        "style": 237,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_237": {
+                        "style": 237,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_238": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_238": {
+                        "style": 238,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_238": {
+                        "style": 238,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_239": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_239": {
+                        "style": 239,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_239": {
+                        "style": 239,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_240": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_240": {
+                        "style": 240,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_240": {
+                        "style": 240,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_241": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_241": {
+                        "style": 241,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_241": {
+                        "style": 241,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_242": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_242": {
+                        "style": 242,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_242": {
+                        "style": 242,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_243": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_243": {
+                        "style": 243,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_243": {
+                        "style": 243,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_244": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_244": {
+                        "style": 244,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_244": {
+                        "style": 244,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_245": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_245": {
+                        "style": 245,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_245": {
+                        "style": 245,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_246": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_246": {
+                        "style": 246,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_246": {
+                        "style": 246,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_247": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_247": {
+                        "style": 247,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_247": {
+                        "style": 247,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_248": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_248": {
+                        "style": 248,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_248": {
+                        "style": 248,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_249": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_249": {
+                        "style": 249,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_249": {
+                        "style": 249,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_250": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_250": {
+                        "style": 250,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_250": {
+                        "style": 250,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_251": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_251": {
+                        "style": 251,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_251": {
+                        "style": 251,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_252": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_252": {
+                        "style": 252,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_252": {
+                        "style": 252,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_253": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_253": {
+                        "style": 253,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_253": {
+                        "style": 253,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_254": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_254": {
+                        "style": 254,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_254": {
+                        "style": 254,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_255": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_255": {
+                        "style": 255,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_255": {
+                        "style": 255,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_256": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_256": {
+                        "style": 256,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_256": {
+                        "style": 256,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_257": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_257": {
+                        "style": 257,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_257": {
+                        "style": 257,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_258": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_258": {
+                        "style": 258,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_258": {
+                        "style": 258,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_minor_tick_259": {
+                    "bbox": null,
+                    "the_x_axis_minor_tickline_259": {
+                        "style": 259,
+                        "bbox": null
+                    },
+                    "the_x_axis_minor_gridline_259": {
+                        "style": 259,
+                        "bbox": null
+                    }
+                }
+            },
+            "x_axis_major_ticks": {
+                "the_x_axis_major_tick_0": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_0": {
+                        "value": "1960",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_0": {
+                        "style": 0,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_0": {
+                        "style": 0,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_1": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_1": {
+                        "value": "1961",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_1": {
+                        "style": 1,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_1": {
+                        "style": 1,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_2": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_2": {
+                        "value": "1962",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_2": {
+                        "style": 2,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_2": {
+                        "style": 2,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_3": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_3": {
+                        "value": "1963",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_3": {
+                        "style": 3,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_3": {
+                        "style": 3,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_4": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_4": {
+                        "value": "1964",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_4": {
+                        "style": 4,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_4": {
+                        "style": 4,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_5": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_5": {
+                        "value": "1965",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_5": {
+                        "style": 5,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_5": {
+                        "style": 5,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_6": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_6": {
+                        "value": "1966",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_6": {
+                        "style": 6,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_6": {
+                        "style": 6,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_7": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_7": {
+                        "value": "1967",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_7": {
+                        "style": 7,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_7": {
+                        "style": 7,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_8": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_8": {
+                        "value": "1968",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_8": {
+                        "style": 8,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_8": {
+                        "style": 8,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_9": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_9": {
+                        "value": "1969",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_9": {
+                        "style": 9,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_9": {
+                        "style": 9,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_10": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_10": {
+                        "value": "1970",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_10": {
+                        "style": 10,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_10": {
+                        "style": 10,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_11": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_11": {
+                        "value": "1971",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_11": {
+                        "style": 11,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_11": {
+                        "style": 11,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_12": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_12": {
+                        "value": "1972",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_12": {
+                        "style": 12,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_12": {
+                        "style": 12,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_13": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_13": {
+                        "value": "1973",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_13": {
+                        "style": 13,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_13": {
+                        "style": 13,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_14": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_14": {
+                        "value": "1974",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_14": {
+                        "style": 14,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_14": {
+                        "style": 14,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_15": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_15": {
+                        "value": "1975",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_15": {
+                        "style": 15,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_15": {
+                        "style": 15,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_16": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_16": {
+                        "value": "1976",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_16": {
+                        "style": 16,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_16": {
+                        "style": 16,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_17": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_17": {
+                        "value": "1977",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_17": {
+                        "style": 17,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_17": {
+                        "style": 17,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_18": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_18": {
+                        "value": "1978",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_18": {
+                        "style": 18,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_18": {
+                        "style": 18,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_19": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_19": {
+                        "value": "1979",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_19": {
+                        "style": 19,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_19": {
+                        "style": 19,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_20": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_20": {
+                        "value": "1980",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_20": {
+                        "style": 20,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_20": {
+                        "style": 20,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_21": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_21": {
+                        "value": "1981",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_21": {
+                        "style": 21,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_21": {
+                        "style": 21,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_22": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_22": {
+                        "value": "1982",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_22": {
+                        "style": 22,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_22": {
+                        "style": 22,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_23": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_23": {
+                        "value": "1983",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_23": {
+                        "style": 23,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_23": {
+                        "style": 23,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_24": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_24": {
+                        "value": "1984",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_24": {
+                        "style": 24,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_24": {
+                        "style": 24,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_25": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_25": {
+                        "value": "1985",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_25": {
+                        "style": 25,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_25": {
+                        "style": 25,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_26": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_26": {
+                        "value": "1986",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_26": {
+                        "style": 26,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_26": {
+                        "style": 26,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_27": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_27": {
+                        "value": "1987",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_27": {
+                        "style": 27,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_27": {
+                        "style": 27,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_28": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_28": {
+                        "value": "1988",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_28": {
+                        "style": 28,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_28": {
+                        "style": 28,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_29": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_29": {
+                        "value": "1989",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_29": {
+                        "style": 29,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_29": {
+                        "style": 29,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_30": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_30": {
+                        "value": "1990",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_30": {
+                        "style": 30,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_30": {
+                        "style": 30,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_31": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_31": {
+                        "value": "1991",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_31": {
+                        "style": 31,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_31": {
+                        "style": 31,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_32": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_32": {
+                        "value": "1992",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_32": {
+                        "style": 32,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_32": {
+                        "style": 32,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_33": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_33": {
+                        "value": "1993",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_33": {
+                        "style": 33,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_33": {
+                        "style": 33,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_34": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_34": {
+                        "value": "1994",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_34": {
+                        "style": 34,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_34": {
+                        "style": 34,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_35": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_35": {
+                        "value": "1995",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_35": {
+                        "style": 35,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_35": {
+                        "style": 35,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_36": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_36": {
+                        "value": "1996",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_36": {
+                        "style": 36,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_36": {
+                        "style": 36,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_37": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_37": {
+                        "value": "1997",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_37": {
+                        "style": 37,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_37": {
+                        "style": 37,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_38": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_38": {
+                        "value": "1998",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_38": {
+                        "style": 38,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_38": {
+                        "style": 38,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_39": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_39": {
+                        "value": "1999",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_39": {
+                        "style": 39,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_39": {
+                        "style": 39,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_40": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_40": {
+                        "value": "2000",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_40": {
+                        "style": 40,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_40": {
+                        "style": 40,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_41": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_41": {
+                        "value": "2001",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_41": {
+                        "style": 41,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_41": {
+                        "style": 41,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_42": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_42": {
+                        "value": "2002",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_42": {
+                        "style": 42,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_42": {
+                        "style": 42,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_43": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_43": {
+                        "value": "2003",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_43": {
+                        "style": 43,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_43": {
+                        "style": 43,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_44": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_44": {
+                        "value": "2004",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_44": {
+                        "style": 44,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_44": {
+                        "style": 44,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_45": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_45": {
+                        "value": "2005",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_45": {
+                        "style": 45,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_45": {
+                        "style": 45,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_46": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_46": {
+                        "value": "2006",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_46": {
+                        "style": 46,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_46": {
+                        "style": 46,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_47": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_47": {
+                        "value": "2007",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_47": {
+                        "style": 47,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_47": {
+                        "style": 47,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_48": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_48": {
+                        "value": "2008",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_48": {
+                        "style": 48,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_48": {
+                        "style": 48,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_49": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_49": {
+                        "value": "2009",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_49": {
+                        "style": 49,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_49": {
+                        "style": 49,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_50": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_50": {
+                        "value": "2010",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_50": {
+                        "style": 50,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_50": {
+                        "style": 50,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_51": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_51": {
+                        "value": "2011",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_51": {
+                        "style": 51,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_51": {
+                        "style": 51,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_52": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_52": {
+                        "value": "2012",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_52": {
+                        "style": 52,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_52": {
+                        "style": 52,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_53": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_53": {
+                        "value": "2013",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_53": {
+                        "style": 53,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_53": {
+                        "style": 53,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_54": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_54": {
+                        "value": "2014",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_54": {
+                        "style": 54,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_54": {
+                        "style": 54,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_55": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_55": {
+                        "value": "2015",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_55": {
+                        "style": 55,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_55": {
+                        "style": 55,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_56": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_56": {
+                        "value": "2016",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_56": {
+                        "style": 56,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_56": {
+                        "style": 56,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_57": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_57": {
+                        "value": "2017",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_57": {
+                        "style": 57,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_57": {
+                        "style": 57,
+                        "bbox": null
+                    }
+                },
+                "the_x_axis_major_tick_58": {
+                    "bbox": null,
+                    "the_x_axis_major_ticklabel_58": {
+                        "value": "2018",
+                        "bbox": null
+                    },
+                    "the_x_axis_major_tickline_58": {
+                        "style": 58,
+                        "bbox": null
+                    },
+                    "the_x_axis_major_gridline_58": {
+                        "style": 58,
+                        "bbox": null
+                    }
+                }
+            }
+        },
+        "the_y_axis": {
+            "bbox": null,
+            "the_y_axis_label": {
+                "value": "Computer, communications and other services (% of commercial service exports)",
+                "bbox": null
+            },
+            "the_y_axis_offset": {
+                "value": "",
+                "bbox": null
+            },
+            "y_axis_minor_ticks": {
+                "the_y_axis_minor_tick_0": {
+                    "bbox": null,
+                    "the_y_axis_minor_tickline_0": {
+                        "style": 0,
+                        "bbox": null
+                    },
+                    "the_y_axis_minor_gridline_0": {
+                        "style": 0,
+                        "bbox": null
+                    }
+                },
+                "the_y_axis_minor_tick_1": {
+                    "bbox": null,
+                    "the_y_axis_minor_tickline_1": {
+                        "style": 1,
+                        "bbox": null
+                    },
+                    "the_y_axis_minor_gridline_1": {
+                        "style": 1,
+                        "bbox": null
+                    }
+                },
+                "the_y_axis_minor_tick_2": {
+                    "bbox": null,
+                    "the_y_axis_minor_tickline_2": {
+                        "style": 2,
+                        "bbox": null
+                    },
+                    "the_y_axis_minor_gridline_2": {
+                        "style": 2,
+                        "bbox": null
+                    }
+                },
+                "the_y_axis_minor_tick_3": {
+                    "bbox": null,
+                    "the_y_axis_minor_tickline_3": {
+                        "style": 3,
+                        "bbox": null
+                    },
+                    "the_y_axis_minor_gridline_3": {
+                        "style": 3,
+                        "bbox": null
+                    }
+                },
+                "the_y_axis_minor_tick_4": {
+                    "bbox": null,
+                    "the_y_axis_minor_tickline_4": {
+                        "style": 4,
+                        "bbox": null
+                    },
+                    "the_y_axis_minor_gridline_4": {
+                        "style": 4,
+                        "bbox": null
+                    }
+                },
+                "the_y_axis_minor_tick_5": {
+                    "bbox": null,
+                    "the_y_axis_minor_tickline_5": {
+                        "style": 5,
+                        "bbox": null
+                    },
+                    "the_y_axis_minor_gridline_5": {
+                        "style": 5,
+                        "bbox": null
+                    }
+                },
+                "the_y_axis_minor_tick_6": {
+                    "bbox": null,
+                    "the_y_axis_minor_tickline_6": {
+                        "style": 6,
+                        "bbox": null
+                    },
+                    "the_y_axis_minor_gridline_6": {
+                        "style": 6,
+                        "bbox": null
+                    }
+                },
+                "the_y_axis_minor_tick_7": {
+                    "bbox": null,
+                    "the_y_axis_minor_tickline_7": {
+                        "style": 7,
+                        "bbox": null
+                    },
+                    "the_y_axis_minor_gridline_7": {
+                        "style": 7,
+                        "bbox": null
+                    }
+                },
+                "the_y_axis_minor_tick_8": {
+                    "bbox": null,
+                    "the_y_axis_minor_tickline_8": {
+                        "style": 8,
+                        "bbox": null
+                    },
+                    "the_y_axis_minor_gridline_8": {
+                        "style": 8,
+                        "bbox": null
+                    }
+                },
+                "the_y_axis_minor_tick_9": {
+                    "bbox": null,
+                    "the_y_axis_minor_tickline_9": {
+                        "style": 9,
+                        "bbox": null
+                    },
+                    "the_y_axis_minor_gridline_9": {
+                        "style": 9,
+                        "bbox": null
+                    }
+                },
+                "the_y_axis_minor_tick_10": {
+                    "bbox": null,
+                    "the_y_axis_minor_tickline_10": {
+                        "style": 10,
+                        "bbox": null
+                    },
+                    "the_y_axis_minor_gridline_10": {
+                        "style": 10,
+                        "bbox": null
+                    }
+                },
+                "the_y_axis_minor_tick_11": {
+                    "bbox": null,
+                    "the_y_axis_minor_tickline_11": {
+                        "style": 11,
+                        "bbox": null
+                    },
+                    "the_y_axis_minor_gridline_11": {
+                        "style": 11,
+                        "bbox": null
+                    }
+                },
+                "the_y_axis_minor_tick_12": {
+                    "bbox": null,
+                    "the_y_axis_minor_tickline_12": {
+                        "style": 12,
+                        "bbox": null
+                    },
+                    "the_y_axis_minor_gridline_12": {
+                        "style": 12,
+                        "bbox": null
+                    }
+                },
+                "the_y_axis_minor_tick_13": {
+                    "bbox": null,
+                    "the_y_axis_minor_tickline_13": {
+                        "style": 13,
+                        "bbox": null
+                    },
+                    "the_y_axis_minor_gridline_13": {
+                        "style": 13,
+                        "bbox": null
+                    }
+                },
+                "the_y_axis_minor_tick_14": {
+                    "bbox": null,
+                    "the_y_axis_minor_tickline_14": {
+                        "style": 14,
+                        "bbox": null
+                    },
+                    "the_y_axis_minor_gridline_14": {
+                        "style": 14,
+                        "bbox": null
+                    }
+                },
+                "the_y_axis_minor_tick_15": {
+                    "bbox": null,
+                    "the_y_axis_minor_tickline_15": {
+                        "style": 15,
+                        "bbox": null
+                    },
+                    "the_y_axis_minor_gridline_15": {
+                        "style": 15,
+                        "bbox": null
+                    }
+                },
+                "the_y_axis_minor_tick_16": {
+                    "bbox": null,
+                    "the_y_axis_minor_tickline_16": {
+                        "style": 16,
+                        "bbox": null
+                    },
+                    "the_y_axis_minor_gridline_16": {
+                        "style": 16,
+                        "bbox": null
+                    }
+                },
+                "the_y_axis_minor_tick_17": {
+                    "bbox": null,
+                    "the_y_axis_minor_tickline_17": {
+                        "style": 17,
+                        "bbox": null
+                    },
+                    "the_y_axis_minor_gridline_17": {
+                        "style": 17,
+                        "bbox": null
+                    }
+                },
+                "the_y_axis_minor_tick_18": {
+                    "bbox": null,
+                    "the_y_axis_minor_tickline_18": {
+                        "style": 18,
+                        "bbox": null
+                    },
+                    "the_y_axis_minor_gridline_18": {
+                        "style": 18,
+                        "bbox": null
+                    }
+                },
+                "the_y_axis_minor_tick_19": {
+                    "bbox": null,
+                    "the_y_axis_minor_tickline_19": {
+                        "style": 19,
+                        "bbox": null
+                    },
+                    "the_y_axis_minor_gridline_19": {
+                        "style": 19,
+                        "bbox": null
+                    }
+                },
+                "the_y_axis_minor_tick_20": {
+                    "bbox": null,
+                    "the_y_axis_minor_tickline_20": {
+                        "style": 20,
+                        "bbox": null
+                    },
+                    "the_y_axis_minor_gridline_20": {
+                        "style": 20,
+                        "bbox": null
+                    }
+                },
+                "the_y_axis_minor_tick_21": {
+                    "bbox": null,
+                    "the_y_axis_minor_tickline_21": {
+                        "style": 21,
+                        "bbox": null
+                    },
+                    "the_y_axis_minor_gridline_21": {
+                        "style": 21,
+                        "bbox": null
+                    }
+                },
+                "the_y_axis_minor_tick_22": {
+                    "bbox": null,
+                    "the_y_axis_minor_tickline_22": {
+                        "style": 22,
+                        "bbox": null
+                    },
+                    "the_y_axis_minor_gridline_22": {
+                        "style": 22,
+                        "bbox": null
+                    }
+                },
+                "the_y_axis_minor_tick_23": {
+                    "bbox": null,
+                    "the_y_axis_minor_tickline_23": {
+                        "style": 23,
+                        "bbox": null
+                    },
+                    "the_y_axis_minor_gridline_23": {
+                        "style": 23,
+                        "bbox": null
+                    }
+                },
+                "the_y_axis_minor_tick_24": {
+                    "bbox": null,
+                    "the_y_axis_minor_tickline_24": {
+                        "style": 24,
+                        "bbox": null
+                    },
+                    "the_y_axis_minor_gridline_24": {
+                        "style": 24,
+                        "bbox": null
+                    }
+                },
+                "the_y_axis_minor_tick_25": {
+                    "bbox": null,
+                    "the_y_axis_minor_tickline_25": {
+                        "style": 25,
+                        "bbox": null
+                    },
+                    "the_y_axis_minor_gridline_25": {
+                        "style": 25,
+                        "bbox": null
+                    }
+                }
+            },
+            "y_axis_major_ticks": {
+                "the_y_axis_major_tick_0": {
+                    "bbox": null,
+                    "the_y_axis_major_ticklabel_0": {
+                        "value": "4",
+                        "bbox": null
+                    },
+                    "the_y_axis_major_tickline_0": {
+                        "style": 0,
+                        "bbox": null
+                    },
+                    "the_y_axis_major_gridline_0": {
+                        "style": 0,
+                        "bbox": null
+                    }
+                },
+                "the_y_axis_major_tick_1": {
+                    "bbox": null,
+                    "the_y_axis_major_ticklabel_1": {
+                        "value": "6",
+                        "bbox": null
+                    },
+                    "the_y_axis_major_tickline_1": {
+                        "style": 1,
+                        "bbox": null
+                    },
+                    "the_y_axis_major_gridline_1": {
+                        "style": 1,
+                        "bbox": null
+                    }
+                },
+                "the_y_axis_major_tick_2": {
+                    "bbox": null,
+                    "the_y_axis_major_ticklabel_2": {
+                        "value": "8",
+                        "bbox": null
+                    },
+                    "the_y_axis_major_tickline_2": {
+                        "style": 2,
+                        "bbox": null
+                    },
+                    "the_y_axis_major_gridline_2": {
+                        "style": 2,
+                        "bbox": null
+                    }
+                },
+                "the_y_axis_major_tick_3": {
+                    "bbox": null,
+                    "the_y_axis_major_ticklabel_3": {
+                        "value": "10",
+                        "bbox": null
+                    },
+                    "the_y_axis_major_tickline_3": {
+                        "style": 3,
+                        "bbox": null
+                    },
+                    "the_y_axis_major_gridline_3": {
+                        "style": 3,
+                        "bbox": null
+                    }
+                },
+                "the_y_axis_major_tick_4": {
+                    "bbox": null,
+                    "the_y_axis_major_ticklabel_4": {
+                        "value": "12",
+                        "bbox": null
+                    },
+                    "the_y_axis_major_tickline_4": {
+                        "style": 4,
+                        "bbox": null
+                    },
+                    "the_y_axis_major_gridline_4": {
+                        "style": 4,
+                        "bbox": null
+                    }
+                },
+                "the_y_axis_major_tick_5": {
+                    "bbox": null,
+                    "the_y_axis_major_ticklabel_5": {
+                        "value": "14",
+                        "bbox": null
+                    },
+                    "the_y_axis_major_tickline_5": {
+                        "style": 5,
+                        "bbox": null
+                    },
+                    "the_y_axis_major_gridline_5": {
+                        "style": 5,
+                        "bbox": null
+                    }
+                },
+                "the_y_axis_major_tick_6": {
+                    "bbox": null,
+                    "the_y_axis_major_ticklabel_6": {
+                        "value": "16",
+                        "bbox": null
+                    },
+                    "the_y_axis_major_tickline_6": {
+                        "style": 6,
+                        "bbox": null
+                    },
+                    "the_y_axis_major_gridline_6": {
+                        "style": 6,
+                        "bbox": null
+                    }
+                },
+                "the_y_axis_major_tick_7": {
+                    "bbox": null,
+                    "the_y_axis_major_ticklabel_7": {
+                        "value": "18",
+                        "bbox": null
+                    },
+                    "the_y_axis_major_tickline_7": {
+                        "style": 7,
+                        "bbox": null
+                    },
+                    "the_y_axis_major_gridline_7": {
+                        "style": 7,
+                        "bbox": null
+                    }
+                },
+                "the_y_axis_major_tick_8": {
+                    "bbox": null,
+                    "the_y_axis_major_ticklabel_8": {
+                        "value": "20",
+                        "bbox": null
+                    },
+                    "the_y_axis_major_tickline_8": {
+                        "style": 8,
+                        "bbox": null
+                    },
+                    "the_y_axis_major_gridline_8": {
+                        "style": 8,
+                        "bbox": null
+                    }
+                },
+                "the_y_axis_major_tick_9": {
+                    "bbox": null,
+                    "the_y_axis_major_ticklabel_9": {
+                        "value": "22",
+                        "bbox": null
+                    },
+                    "the_y_axis_major_tickline_9": {
+                        "style": 9,
+                        "bbox": null
+                    },
+                    "the_y_axis_major_gridline_9": {
+                        "style": 9,
+                        "bbox": null
+                    }
+                }
+            }
+        },
+        "the_title": {
+            "value": "TX.VAL.OTHR.ZS.WT",
+            "bbox": null
+        },
+        "the_legend": {
+            "the_legend_title": {
+                "value": "Legend",
+                "bbox": null
+            },
+            "legend_packers": {
+                "the_legend_packer_0": {
+                    "the_legend_symbol_0": {
+                        "value": "South Africa",
+                        "bbox": null
+                    },
+                    "the_legend_text_0": {
+                        "value": "South Africa",
+                        "bbox": null
+                    },
+                    "bbox": null
+                }
+            }
+        }
+    }
+}
