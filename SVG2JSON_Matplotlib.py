@@ -56,7 +56,7 @@ def crop_image(image, bbox):
     return cropped_image
 
 
-def export_png_and_bbox(svg_path, png_path, driver=None):
+def export_png_and_bbox(fig_type, svg_path, png_path, driver=None):
     import selenium.webdriver as webdriver  # "conda install -c bokeh selenium" or "pip install selenium"
     from selenium.webdriver.chrome.options import Options as webdriver_Options
     import PIL.Image as Image  # "conda install pillow" or "pip install pillow"
@@ -95,6 +95,7 @@ def export_png_and_bbox(svg_path, png_path, driver=None):
     web_driver.get('file:///' + svg_path)
     get_bbox_script = """
         var bboxes = {};
+        var figure_type = '%s'; // need to assign from outside
         figure_show_bbox = document.documentElement.getBoundingClientRect();
         bboxes['figure_show'] = [figure_show_bbox['x'], figure_show_bbox['y'], figure_show_bbox['width'], figure_show_bbox['height']];
         var layer_nodes = [];
@@ -105,10 +106,44 @@ def export_png_and_bbox(svg_path, png_path, driver=None):
         while (layer_nodes.length != 0) {
             for (var node_idx = 0; node_idx<layer_nodes.length; node_idx++){
                 var current_node = layer_nodes[node_idx];
-                // console.log('Fetching bbox for %s', current_node.id);
                 var cur_SVGRect = current_node.getBBox();
-                bboxes[current_node.id] = [cur_SVGRect['x'], cur_SVGRect['y'], 
-                    cur_SVGRect['width']+cur_SVGRect['x'], cur_SVGRect['height']+cur_SVGRect['y']];
+                bboxes[current_node.id] = [cur_SVGRect['x'], cur_SVGRect['y'],
+                cur_SVGRect['width']+cur_SVGRect['x'], cur_SVGRect['height']+cur_SVGRect['y']];
+        
+                // fetch path for line/dot element in path of a drawing object
+                if (current_node.id.startsWith('%s')){
+                    if (figure_type == 'Line_chart' || figure_type == 'Area_chart'){
+                        try {
+                            bboxes[current_node.id + '_path'] = current_node.getElementsByTagName('path')[0].getAttribute('d');
+                        } catch(error) {
+                            console.error(error);  // expected output: TypeError: Cannot read property 'getAttribute' of undefined
+                        }
+                    }
+                    if (figure_type == 'Scatter_chart') {
+                        /*
+                        // get path for line
+                        try {
+                            bboxes[current_node.id + '_path'] = current_node.getElementsByTagName('path')[0].getAttribute('d');
+                        } catch(error) {
+                            console.error(error);  // expected output: TypeError: Cannot read property 'getAttribute' of undefined
+                        }
+                        */
+                        // get path for scatter dot
+                        try {
+                            var dots = current_node.getElementsByTagName('g')[0];
+                            var tmp_bbox = {};
+                            for (var dot_num=0; dot_num<dots.childElementCount; dot_num++){
+                                var tmp_SVGRect = dots.children[dot_num].getBBox();
+                                tmp_bbox[current_node.id + '_Dot_' + dot_num] = [tmp_SVGRect['x'], tmp_SVGRect['y'],
+                                    tmp_SVGRect['width']+tmp_SVGRect['x'], tmp_SVGRect['height']+tmp_SVGRect['y']];
+                            }
+                            bboxes[current_node.id + '_path'] = tmp_bbox;
+                        } catch (error) {
+                            console.error(error);  // expected output: TypeError: Cannot read property 'getAttribute' of undefined
+                        }
+                    }
+                }
+        
                 for (var next_node_idx = 0;
                     next_node_idx<current_node.childElementCount;
                     next_node_idx++){
@@ -123,7 +158,7 @@ def export_png_and_bbox(svg_path, png_path, driver=None):
         }
         // console.log(bboxes);
         return bboxes;  // for use in python through web driver
-        """
+        """ % (fig_type, FID.DRAWING_OBJECT_ID)
 
     bboxes_dict = web_driver.execute_script(get_bbox_script)
     # web_driver.close()
@@ -196,7 +231,7 @@ def html_png_render(bbox_fig, web_driver, svg_path):
     return png
 
 
-def bboxes_postprocess(bboxes):
+def bboxes_postprocess(bboxes, fig_type):
     '''Add bbox for legend packer/axis line and redefine axis bbox/tick by removing gridline'''
 
     def bbox_merge(bbox_cur, bbox_add):
@@ -212,18 +247,35 @@ def bboxes_postprocess(bboxes):
     #     return z
 
     bboxes_packer = {}
+    bboxes_path = {}
     for element_type, element_bbox in bboxes.items():
         if FID.LEGEND_SYMBOL_ID in element_type:
+            # add bbox for legend packer
             idx = element_type.split('_')[-1]
             bboxes_packer[FID.LEGEND_PACKER_ID + idx] = bbox_merge(element_bbox, bboxes[FID.LEGEND_TEXT_ID + idx])
 
+        if FID.DRAWING_OBJECT_ID in element_type:
+            if (fig_type == 'Line_chart' and 'path' in element_type) or (fig_type == 'Area_chart' and 'line_path' in element_type):
+                # add location for evert point in path of a line element
+                bbox_path = {}
+                path_splits = element_bbox.encode("utf-8").split('  ')
+                path_splits.remove('')  # the last element in path
+                for path_idx, path_split in enumerate(path_splits):
+                    path_cur = path_split.split(' ')
+                    assert path_cur[0] in ['M', 'L', 'z'], ' !! Error: unexpection type: {} in svg path'.format(path_cur[0])
+                    point_loc = path_cur[1:]
+                    if point_loc:
+                        # remove the 'z' element (just in case)
+                        bbox_path[element_type + '_%d' % path_idx] = list(map(float, point_loc))
+                bboxes_path[element_type] = bbox_path
+
         if FID.X_AXIS_ID == element_type:
-            # use top of tickline as axis bbox
+            # use top of tickline as axis bbox (offset label included)
             element_bbox[1] = bboxes[FID.X_AXIS_MAJOR_TICKLINE_ID + str(1)][1]
             if FID.X_AXIS_OFFSET_ID in list(bboxes):
                 element_bbox = bbox_merge(element_bbox, bboxes[FID.X_AXIS_OFFSET_ID])
         if FID.Y_AXIS_ID == element_type:
-            # use right of tickline as axis bbox
+            # use right of tickline as axis bbox (offset label included)
             element_bbox[2] = bboxes[FID.Y_AXIS_MAJOR_TICKLINE_ID + str(1)][2]
             if FID.Y_AXIS_OFFSET_ID in list(bboxes):
                 element_bbox = bbox_merge(element_bbox, bboxes[FID.Y_AXIS_OFFSET_ID])
@@ -240,12 +292,13 @@ def bboxes_postprocess(bboxes):
             # use right of tickline as axis bbox
             element_bbox[2] = bboxes[FID.Y_AXIS_MINOR_TICKLINE_ID + element_type.split('_')[-1]][2]
 
+    # add in bbox for axis line
     bboxes[FID.X_AXIS_LINE_ID] = bboxes[FID.X_AXIS_ID]
     bboxes[FID.X_AXIS_LINE_ID][3] = bboxes[FID.X_AXIS_MAJOR_TICKLINE_ID + str(1)][3]
     bboxes[FID.Y_AXIS_LINE_ID] = bboxes[FID.Y_AXIS_ID]
     bboxes[FID.Y_AXIS_LINE_ID][0] = bboxes[FID.Y_AXIS_MAJOR_TICKLINE_ID + str(1)][0]
 
-    return merge_dict(bboxes, bboxes_packer)
+    return merge_dict(merge_dict(bboxes, bboxes_packer), bboxes_path)
 
 
 def bbox_fetch(bboxes, key):
@@ -288,8 +341,11 @@ def export_annotation_bbox(bboxes, data):
                     dict_loop_key_next.append(k_next)
                 if 'bbox' == k_next:
                     dict_point['bbox'] = bbox_fetch(bboxes, dict_point_key)
+                if 'path_bbox' == k_next:
+                    dict_point['path_bbox'] = bbox_fetch(bboxes, dict_point_key + '_path')
         dict_loop = dict_loop_next
         dict_loop_key = dict_loop_key_next
+
     return data
 
 
@@ -394,35 +450,52 @@ def export_annotation_association(association_path):
     writer.save()
 
 
-if __name__ == '__main__':
-    cwd = os.getcwd()
-
-    figures_path = os.path.join(cwd, 'figure/matplotlib')
-    line_chart_path = os.path.join(figures_path, 'Line_chart')
+def export_annotation_png_batch(figures_path, fig_type):
+    line_chart_path = os.path.join(figures_path, fig_type)
     svg_path = os.path.join(line_chart_path, 'svg')
     src_data_path = os.path.join(line_chart_path, 'src_data')
 
     png_path = os.path.join(line_chart_path, 'png')
     bbox_anno_path = os.path.join(line_chart_path, 'bbox_anno')
     asso_anno_path = os.path.join(line_chart_path, 'asso_anno')
-    mkdir_safe([png_path, bbox_anno_path, asso_anno_path])
+    bbox_debug_path = os.path.join(line_chart_path, 'tmp')
+    mkdir_safe([png_path, bbox_anno_path, asso_anno_path, bbox_debug_path])
 
     FID.element_init()
 
     for idx in range(len(os.listdir(svg_path))):
-        print(' >> Reading json and svg from: %s' % os.path.join(svg_path, 'Line_chart_%03d.svg' % idx))
-        bboxes_dict, image = export_png_and_bbox(os.path.join(svg_path, 'Line_chart_%03d.svg' % idx),
-                                                 os.path.join(png_path, 'Line_chart_%03d.png' % idx), driver=None)
+        print(' >> Reading json and svg from: %s' % os.path.join(svg_path, '%s_%03d.svg' % (fig_type, idx)))
+        bboxes_dict, image = export_png_and_bbox(fig_type, os.path.join(svg_path, '%s_%03d.svg' % (fig_type, idx)),
+                                                 os.path.join(png_path, '%s_%03d.png' % (fig_type, idx)), driver=None)
 
-        bboxes_dict = bboxes_postprocess(bboxes_dict)
+        bboxes_dict = bboxes_postprocess(bboxes_dict, fig_type)
         # from Show_bbox import show_bbox
         # show_bbox(bboxes_dict, image, bbox_png_path)
 
-        with open(os.path.join(src_data_path, 'Line_chart_%03d.json' % idx), 'r') as infile:
+
+        with open(os.path.join(src_data_path, '%s_%03d.json' % (fig_type, idx)), 'r') as infile:
             src_data = json.load(infile)
 
         annotation_data = export_annotation_bbox(bboxes_dict, src_data)
-        with open(os.path.join(bbox_anno_path, 'Line_chart_%03d.json' % idx), 'w') as outfile:
+        with open(os.path.join(bbox_anno_path, '%s_%03d.json' % (fig_type, idx)), 'w') as outfile:
             json.dump(annotation_data, outfile, indent=4)
 
-        export_annotation_association(os.path.join(asso_anno_path, 'Line_chart_%03d.xlsx' % idx))
+        export_annotation_association(os.path.join(asso_anno_path, '%s_%03d.xlsx' % (fig_type, idx)))
+
+
+if __name__ == '__main__':
+    cwd = os.getcwd()
+
+    figures_path = os.path.join(cwd, 'figure/matplotlib')
+
+    # Line Chart
+    fig_type = 'Line_chart'
+    export_annotation_png_batch(figures_path, fig_type)
+
+    # # Area Chart
+    # fig_type = 'Area_chart'
+    # export_annotation_png_batch(figures_path, fig_type)
+
+    # # Scatter Chart
+    # fig_type = 'Scatter_chart'
+    # export_annotation_png_batch(figures_path, fig_type)

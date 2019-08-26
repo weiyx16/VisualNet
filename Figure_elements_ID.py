@@ -47,3 +47,9 @@ def asso_init():
         'measure': 2,
         'similarity': 3
     }
+
+def aesthetic_init():
+    global ALL_LINE, ALL_MARKER, ALL_COLOR
+    ALL_LINE = ['-', '--', '-.', ':']
+    ALL_MARKER = ['.', ',', 'o', 'v', '^', '>', '<', 's', 'p', '*', 'h', 'H', 'D', 'd', '1', '2', '3', '4', 'x']
+    ALL_COLOR = ['b', 'g', 'r', 'c', 'm', 'y', 'k', 'w']
