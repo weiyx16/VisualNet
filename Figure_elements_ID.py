@@ -17,7 +17,8 @@ def element_init():
     global Y_AXIS_MAJOR_TICK_ID, Y_AXIS_MAJOR_TICKLABEL_ID, Y_AXIS_MAJOR_TICKLINE_ID, Y_AXIS_MAJOR_GRID_ID
     global X_AXIS_MINOR_TICK_ID, X_AXIS_MINOR_TICKLABEL_ID, X_AXIS_MINOR_TICKLINE_ID, X_AXIS_MINOR_GRID_ID
     global Y_AXIS_MINOR_TICK_ID, Y_AXIS_MINOR_TICKLABEL_ID, Y_AXIS_MINOR_TICKLINE_ID, Y_AXIS_MINOR_GRID_ID
-    global DRAWING_OBJECT_ID
+    global POLAR_AXIS_TICKLABEL_ID
+    global DRAWING_OBJECT_ID, OBJECT_TEXT_ID
 
     FIGURE_ID, FIGURE_PATCH_ID = "the_figure", "the_figure_patch"
     AXES_ID, AXES_PATCH_ID = "the_axes", "the_axes_patch"
@@ -36,7 +37,8 @@ def element_init():
         "the_x_axis_minor_tick_", "the_x_axis_minor_ticklabel_", "the_x_axis_minor_tickline_", "the_x_axis_minor_gridline_"
     Y_AXIS_MINOR_TICK_ID, Y_AXIS_MINOR_TICKLABEL_ID, Y_AXIS_MINOR_TICKLINE_ID, Y_AXIS_MINOR_GRID_ID = \
         "the_y_axis_minor_tick_", "the_y_axis_minor_ticklabel_", "the_y_axis_minor_tickline_", "the_y_axis_minor_gridline_"
-    DRAWING_OBJECT_ID = "the_drawing_object_"
+    POLAR_AXIS_TICKLABEL_ID = "the_polar_axis_ticklabel_"
+    DRAWING_OBJECT_ID, OBJECT_TEXT_ID = "the_drawing_object_", "the_object_text_"
 
 def asso_init():
     global ASSO_TYPE

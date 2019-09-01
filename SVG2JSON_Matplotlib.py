@@ -96,10 +96,13 @@ def export_png_and_bbox(fig_type, svg_path, png_path, driver=None):
     get_bbox_script = """
         var bboxes = {};
         var figure_type = '%s'; // need to assign from outside
+        var drawing_obj_id = '%s'; // need to assign from outside
         figure_show_bbox = document.documentElement.getBoundingClientRect();
         bboxes['figure_show'] = [figure_show_bbox['x'], figure_show_bbox['y'], figure_show_bbox['width'], figure_show_bbox['height']];
         var layer_nodes = [];
         var next_layer_nodes = [];
+        var bar_num = -1;
+        var bar_group = drawing_obj_id + 0;
         // document.documentElement == svg
         // document.documentElement.children[1] == ('the_figure')
         layer_nodes.push(document.documentElement.children[1]);
@@ -107,12 +110,12 @@ def export_png_and_bbox(fig_type, svg_path, png_path, driver=None):
             for (var node_idx = 0; node_idx<layer_nodes.length; node_idx++){
                 var current_node = layer_nodes[node_idx];
                 var cur_SVGRect = current_node.getBBox();
-                bboxes[current_node.id] = [cur_SVGRect['x'], cur_SVGRect['y'],
-                cur_SVGRect['width']+cur_SVGRect['x'], cur_SVGRect['height']+cur_SVGRect['y']];
         
                 // fetch path for line/dot element in path of a drawing object
-                if (current_node.id.startsWith('%s')){
+                if (current_node.id.startsWith(drawing_obj_id)){
                     if (figure_type == 'Line_chart' || figure_type == 'Area_chart'){
+                        bboxes[current_node.id] = [cur_SVGRect['x'], cur_SVGRect['y'],
+                                cur_SVGRect['width']+cur_SVGRect['x'], cur_SVGRect['height']+cur_SVGRect['y']];
                         try {
                             bboxes[current_node.id + '_path'] = current_node.getElementsByTagName('path')[0].getAttribute('d');
                         } catch(error) {
@@ -120,6 +123,8 @@ def export_png_and_bbox(fig_type, svg_path, png_path, driver=None):
                         }
                     }
                     if (figure_type == 'Scatter_chart') {
+                        bboxes[current_node.id] = [cur_SVGRect['x'], cur_SVGRect['y'],
+                                cur_SVGRect['width']+cur_SVGRect['x'], cur_SVGRect['height']+cur_SVGRect['y']];
                         /*
                         // get path for line
                         try {
@@ -142,8 +147,26 @@ def export_png_and_bbox(fig_type, svg_path, png_path, driver=None):
                             console.error(error);  // expected output: TypeError: Cannot read property 'getAttribute' of undefined
                         }
                     }
+                    if (figure_type == 'Bar_chart'){
+                        if (current_node.id == bar_group){
+                            bar_num ++;
+                        }
+                        else{
+                            bar_num = 0;
+                            bar_group = current_node.id;
+                        }
+                        bboxes[current_node.id + '_bbox_' + bar_num] = [cur_SVGRect['x'], cur_SVGRect['y'],
+                                cur_SVGRect['width']+cur_SVGRect['x'], cur_SVGRect['height']+cur_SVGRect['y']];
+                    }
+                    if (figure_type == 'Pie_chart'){
+                        bboxes[current_node.id] = [cur_SVGRect['x'], cur_SVGRect['y'],
+                           cur_SVGRect['width']+cur_SVGRect['x'], cur_SVGRect['height']+cur_SVGRect['y']];
+                    }
                 }
-        
+                else{
+                    bboxes[current_node.id] = [cur_SVGRect['x'], cur_SVGRect['y'],
+                            cur_SVGRect['width']+cur_SVGRect['x'], cur_SVGRect['height']+cur_SVGRect['y']];
+                }
                 for (var next_node_idx = 0;
                     next_node_idx<current_node.childElementCount;
                     next_node_idx++){
@@ -235,11 +258,8 @@ def bboxes_postprocess(bboxes, fig_type):
     '''Add bbox for legend packer/axis line and redefine axis bbox/tick by removing gridline'''
 
     def bbox_merge(bbox_cur, bbox_add):
-        bbox_cur[0] = min(bbox_cur[0], bbox_add[0])
-        bbox_cur[1] = min(bbox_cur[1], bbox_add[1])
-        bbox_cur[2] = max(bbox_cur[2], bbox_add[2])
-        bbox_cur[3] = max(bbox_cur[3], bbox_add[3])
-        return bbox_cur
+        return [min(bbox_cur[0], bbox_add[0]), min(bbox_cur[1], bbox_add[1]),
+                max(bbox_cur[2], bbox_add[2]), max(bbox_cur[3], bbox_add[3])]
 
     # def merge_dict(dict1, dict2):
     #     z = dict1.copy()  # start with x's keys and values
@@ -292,11 +312,12 @@ def bboxes_postprocess(bboxes, fig_type):
             # use right of tickline as axis bbox
             element_bbox[2] = bboxes[FID.Y_AXIS_MINOR_TICKLINE_ID + element_type.split('_')[-1]][2]
 
-    # add in bbox for axis line
-    bboxes[FID.X_AXIS_LINE_ID] = bboxes[FID.X_AXIS_ID]
-    bboxes[FID.X_AXIS_LINE_ID][3] = bboxes[FID.X_AXIS_MAJOR_TICKLINE_ID + str(1)][3]
-    bboxes[FID.Y_AXIS_LINE_ID] = bboxes[FID.Y_AXIS_ID]
-    bboxes[FID.Y_AXIS_LINE_ID][0] = bboxes[FID.Y_AXIS_MAJOR_TICKLINE_ID + str(1)][0]
+    if fig_type is not 'Pie_chart':
+        # add in bbox for axis line
+        bboxes[FID.X_AXIS_LINE_ID] = bboxes[FID.X_AXIS_ID]
+        bboxes[FID.X_AXIS_LINE_ID][3] = bboxes[FID.X_AXIS_MAJOR_TICKLINE_ID + str(1)][3]
+        bboxes[FID.Y_AXIS_LINE_ID] = bboxes[FID.Y_AXIS_ID]
+        bboxes[FID.Y_AXIS_LINE_ID][0] = bboxes[FID.Y_AXIS_MAJOR_TICKLINE_ID + str(1)][0]
 
     return merge_dict(merge_dict(bboxes, bboxes_packer), bboxes_path)
 
@@ -343,6 +364,8 @@ def export_annotation_bbox(bboxes, data):
                     dict_point['bbox'] = bbox_fetch(bboxes, dict_point_key)
                 if 'path_bbox' == k_next:
                     dict_point['path_bbox'] = bbox_fetch(bboxes, dict_point_key + '_path')
+                if 'bbox_' in k_next:
+                    dict_point[k_next] = bbox_fetch(bboxes, '_'.join([dict_point_key, k_next]))
         dict_loop = dict_loop_next
         dict_loop_key = dict_loop_key_next
 
@@ -488,9 +511,9 @@ if __name__ == '__main__':
 
     figures_path = os.path.join(cwd, 'figure/matplotlib')
 
-    # Line Chart
-    fig_type = 'Line_chart'
-    export_annotation_png_batch(figures_path, fig_type)
+    # # Line Chart
+    # fig_type = 'Line_chart'
+    # export_annotation_png_batch(figures_path, fig_type)
 
     # # Area Chart
     # fig_type = 'Area_chart'
@@ -499,3 +522,11 @@ if __name__ == '__main__':
     # # Scatter Chart
     # fig_type = 'Scatter_chart'
     # export_annotation_png_batch(figures_path, fig_type)
+
+    # # Bar Chart
+    # fig_type = 'Bar_chart'
+    # export_annotation_png_batch(figures_path, fig_type)
+
+    # Pie Chart
+    fig_type = 'Pie_chart'
+    export_annotation_png_batch(figures_path, fig_type)
